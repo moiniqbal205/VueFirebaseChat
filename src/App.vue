@@ -9,7 +9,7 @@
           v-model="inputUsername" 
           placeholder="Please enter your username"
         />
-        <input type="submit" value="login" />
+        <input type="submit" value="Login" />
       </div>
     </form>
   </div>
@@ -129,7 +129,7 @@ export default {
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;
-	background-color: #008080;
+	background-image: linear-gradient(to right, #43cea2, #185a9d);
 	
 	&.login {
 		align-items: center;
@@ -139,6 +139,8 @@ export default {
 			padding: 15px;
 			
 			.form-inner {
+        max-width: 400px;
+        margin: 0 auto;
 				display: block;
 				background-color: #FFF;
 				padding: 50px 15px;
@@ -148,6 +150,7 @@ export default {
 					color: #AAA;
 					font-size: 28px;
 					margin-bottom: 30px;
+          text-align: center;
 				}
 				label {
 					display: block;
@@ -185,7 +188,7 @@ export default {
 					display: block;
 					width: 100%;
 					padding: 10px 15px;
-					background-color: #008080;
+          background-image: linear-gradient(to right, #43cea2, #185a9d);
 					border-radius: 8px;
 					color: #FFF;
 					font-size: 18px;
@@ -269,7 +272,7 @@ export default {
 						.content {
 							color: #FFF;
 							font-weight: 600;
-							background-color: #ea526f;
+              background-image: linear-gradient(to right, #43cea2, #185a9d);
 						}
 					}
 				}
@@ -313,7 +316,7 @@ export default {
 					display: block;
 					padding: 10px 15px;
 					border-radius: 0px 8px 8px 0px;
-					background-color: #008080;
+          background-image: linear-gradient(to right, #43cea2, #185a9d);
 					color: #FFF;
 					font-size: 18px;
 					font-weight: 700;
